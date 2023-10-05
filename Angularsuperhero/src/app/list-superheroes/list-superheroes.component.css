@@ -1,0 +1,14 @@
+.container{
+    background-image: linear-gradient(to right, #e4e4e4, #ebebeb);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    margin: 50px;
+    text-align: left;
+
+}
+
+li{
+    font-size: 30px;
+}

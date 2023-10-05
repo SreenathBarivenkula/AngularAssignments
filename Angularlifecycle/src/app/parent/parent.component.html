@@ -1,0 +1,8 @@
+  <div class="container">
+    <h1>Parent Component</h1>
+  <button class="bt1" (click)="changeMessage()"> New message from parent </button>
+  <button class="bt1" (click)="changeMessage1()"> Alert2 </button>
+  <button class="bt1" (click)="changeMessage2()"> Alert3 </button>
+ 
+  </div>
+  <app-child [message]="message"></app-child>
